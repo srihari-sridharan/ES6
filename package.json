@@ -24,10 +24,10 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7",
     "eslint": "^3.5.0",
     "eslint-watch": "^2.1.14",
-    "npm-run-all": "^4.0.2"
+    "npm-run-all": "^4.0.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
   }
 }
