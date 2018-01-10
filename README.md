@@ -1,4 +1,4 @@
-# Exploring ES6
+# ES6 Seed
 
 ## Setting Up ES6 Using Babel and webpack
 
