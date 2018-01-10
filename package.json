@@ -5,7 +5,9 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "watch": "webpack -w -d --progress --colors",
-    "build": "webpack -p --progress --colors"
+    "build": "webpack -p --progress --colors",
+    "lint": "node_modules/.bin/esw webpack.config.* src --color",
+    "lint:watch": "npm run lint -- --watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^2.9.7",
+    "eslint": "^3.5.0",
+    "eslint-watch": "^2.1.14",
+    "npm-run-all": "^4.0.2"
   }
 }
