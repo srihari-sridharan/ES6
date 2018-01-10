@@ -185,3 +185,43 @@ Update your package.json with scripts.
 You can launch the server using `npm run server`. This hosts the sever in http://localhost:8080.
 
 > NOTE: At the time of this writing, latest version of `webpack-dev-server` had issues, use `webpack-dev-server` version 2.9.7.
+
+#### Upgrading to babel-preset-env
+
+* Please refer to link http://babeljs.io/env#upgrading-to-babel-preset-env.
+* Install `npm install babel-preset-env --save-dev`
+* Basic `.babelrc` change
+
+```JSON
+{
+   "presets": ["env"]
+}
+```
+
+* `.babelrc` against a specific chrome version
+
+```JSON
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "chrome": "60"
+      }
+    }]
+  ]
+}
+```
+
+* `.babelrc` against current node version
+
+```JSON
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ]
+}
+```
