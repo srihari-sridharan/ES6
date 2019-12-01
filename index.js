@@ -3,4 +3,4 @@ const hello = (name) => {
     console.log("Arrow functions are working");
 };
 
-hello("Srihari");
+hello("Srihari Sridharan");
